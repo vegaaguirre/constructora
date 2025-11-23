@@ -1,0 +1,8 @@
+.input{width:100%;border:1px solid #e5e7eb;border-radius:.5rem;padding:.625rem .75rem;background-color:#fff;color:#111827}
+.input:focus{outline:none;box-shadow:0 0 0 3px rgba(17,24,39,.1)}
+button:focus{outline:none;box-shadow:0 0 0 3px rgba(17,24,39,.1)}
+html{scroll-behavior:smooth}
+@media (max-width:640px){h1{line-height:1.1}}
+
+:root{--hero-image:url('Construccion.png')}
+.hero{background-image:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),var(--hero-image);background-size:cover;background-position:center;background-repeat:no-repeat}
